@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - Nom de l'Entreprise</title>
+    <link rel="stylesheet" href="contact style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+            <div class="search-bar">
+                <input type="text" class="search-input" >
+        
+            </div>
+       
+    </header>
+    <div class="policepacifico text-center">
+        <h1>BloomPetals</h1>
+        </div>
+
+
+    <section class="contact-form">
+        <h2>Formulaire de Contact</h2>
+        <form action="traitement.php" method="post">
+            <label for="civilite">Civilité :</label>
+            <select id="civilite" name="civilite">
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+            </select>
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="adresse">Adresse Postale :</label>
+            <textarea id="adresse" name="adresse" rows="4" required></textarea>
+
+            <label for="confidentialite">J'accepte les politiques de confidentialité de l'entreprise :</label>
+            <input type="checkbox" id="confidentialite" name="confidentialite" required>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

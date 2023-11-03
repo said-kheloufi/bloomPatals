@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:#767A85 ;
+    color: #1B1B23;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1B1B23;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.policepacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.texteconfig {
+    padding: 50px;
+    
+}
+
+
+.element {
+    border: 1px solid #463c3c; 
+    margin: 40px;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: 145px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.text-box {
+    padding: 10px;
+}
+
+
+
+    .image-container img {
+        max-width: 100%; 
+    }
+
+
+
+
+    .confirmation-arrow {
+        color: #ffffff;
+        font-size: 18px;
+        background-color: #007bff; 
+        border-radius: 50%;
+        padding: 5px; 
+        margin-right: 10px; 
+    }
+    
+footer{
+    background-color: #767A85;
+    height: 100px;
+}
